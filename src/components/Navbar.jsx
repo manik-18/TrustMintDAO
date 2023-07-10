@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Profile from '../asset/user.svg';
+import Icon from '../asset/icon.png';
 
 const Navbar = () => {
   return (
@@ -8,9 +10,9 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src={Icon}
               className="h-8 mr-3"
-              alt="Flowbite Logo"
+              alt="TrustMint Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Trust Mint
@@ -28,7 +30,7 @@ const Navbar = () => {
               <span className="sr-only">Open user menu</span>
               <img
                 className="w-8 h-8 rounded-full"
-                src="https://plus.unsplash.com/premium_photo-1686975618100-da3fe15faef8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1977&q=80"
+                src={Profile}
                 alt="user photo"
               />
             </button>
@@ -43,7 +45,7 @@ const Navbar = () => {
                   Bonnie Green
                 </span>
                 <span className="block text-sm  text-gray-500 truncate dark:text-gray-400">
-                  name@flowbite.com
+                  name@TrustMint.com
                 </span>
               </div>
               <ul className="py-2" aria-labelledby="user-menu-button">
@@ -52,7 +54,7 @@ const Navbar = () => {
                     to="#"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                   >
-                    Dashboard
+                    History
                   </Link>
                 </li>
                 <li>
@@ -61,14 +63,6 @@ const Navbar = () => {
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                   >
                     Settings
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                  >
-                    Earnings
                   </Link>
                 </li>
                 <li>
@@ -133,26 +127,10 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/services"
+                  to="/verify"
                   className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/pricing"
-                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/contact"
-                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Contact
+                  Verify
                 </Link>
               </li>
             </ul>
