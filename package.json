@@ -10,13 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@arcana/auth": "^1.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1",
-<<<<<<< HEAD
-=======
     "sass": "^1.63.6",
->>>>>>> 062558c914170636842620c7bd5e11fea5b6252d
     "typed.js": "^2.0.16"
   },
   "devDependencies": {
