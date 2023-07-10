@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Profile from '../asset/user.svg';
-import Icon from '../asset/icon.png';
+import Profile from "../asset/user.svg";
 
 const Navbar = () => {
   return (
@@ -10,7 +9,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center">
             <img
-              src={Icon}
+              src="https://flowbite.com/docs/images/logo.svg"
               className="h-8 mr-3"
               alt="TrustMint Logo"
             />
