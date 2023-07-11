@@ -12,7 +12,7 @@ const Home = () => {
 
         <Cube3d />
       </div>
-
+        <br /><br />
       <div class="flex items-center justify-center py-4 md:py-8 flex-wrap gap-6">
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:scale-110 transition-transform duration-300">
           <a href="#">
