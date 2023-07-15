@@ -20,9 +20,9 @@ function About() {
             nemo expedita asperiores molestiae reprehenderit ab nostrum
             voluptate officia quod? Deleniti libero dignissimos facilis.
           </p>
-          <div>
+          <div className="about-video">
             <Iframe
-              width="992"
+              width="100%"
               height="558"
               src="https://www.youtube.com/embed/nuORLKIt8Ls"
               title="GFG Hackathon"
@@ -41,12 +41,10 @@ function About() {
           </h1>
           <div className="flex flex-wrap justify-center">
             <div className="flex flex-col items-center m-3">
-              <img
-                src={Vite}
-                alt="Image Description"
-                className="w-32 h-32"
-              />
-              <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">Vite</p>
+              <img src={Vite} alt="Image Description" className="w-32 h-32" />
+              <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">
+                Vite
+              </p>
             </div>
             <div className="flex flex-col items-center m-3">
               <img
@@ -54,7 +52,9 @@ function About() {
                 alt="Image Description"
                 className="w-32 h-32"
               />
-              <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">React Js</p>
+              <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">
+                React Js
+              </p>
             </div>
             <div className="flex flex-col items-center m-3">
               <img
@@ -62,30 +62,32 @@ function About() {
                 alt="Image Description"
                 className="w-32 h-32"
               />
-              <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">Tailwind CSS</p>
+              <p className="mt-2 text-gray-500 dark:text-gray-400 font-medium">
+                Tailwind CSS
+              </p>
             </div>
           </div>
         </div>
       </section>
       <div>
-        <footer class="bg-white dark:bg-gray-900 bottom-0">
-          <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-            <div class="md:flex md:justify-between">
-              <div class="mb-6 md:mb-0">
-                <a href="https://flowbite.com/" class="flex items-center">
+        <footer className="bg-white dark:bg-gray-900 bottom-0">
+          <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div className="md:flex md:justify-between">
+              <div className="mb-6 md:mb-0">
+                <a href="https://flowbite.com/" className="flex items-center">
                   <img
                     src="https://flowbite.com/docs/images/logo.svg"
-                    class="h-8 mr-3"
+                    className="h-8 mr-3"
                     alt="FlowBite Logo"
                   />
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                     Trust Mint
                   </span>
                 </a>
               </div>
-              <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+              <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                     Resources
                   </h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -97,7 +99,7 @@ function About() {
                     <li>
                       <a
                         href="https://tailwindcss.com/"
-                        class="hover:underline"
+                        className="hover:underline"
                       >
                         Tailwind CSS
                       </a>
@@ -105,7 +107,7 @@ function About() {
                   </ul>
                 </div>
                 <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                     Follow us
                   </h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -122,17 +124,17 @@ function About() {
                   </ul>
                 </div>
                 <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                     Legal
                   </h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                    <li class="mb-4">
-                      <a href="#" class="hover:underline">
+                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                    <li className="mb-4">
+                      <a href="#" className="hover:underline">
                         Privacy Policy
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="hover:underline">
+                      <a href="#" className="hover:underline">
                         Terms &amp; Conditions
                       </a>
                     </li>
@@ -140,11 +142,11 @@ function About() {
                 </div>
               </div>
             </div>
-            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <div class="sm:flex sm:items-center sm:justify-between">
-              <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div className="sm:flex sm:items-center sm:justify-between">
+              <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                 © 2023{" "}
-                <a href="" class="hover:underline">
+                <a href="" className="hover:underline">
                   Trust Mint
                 </a>
                 . Built During Ur Hackathon.
