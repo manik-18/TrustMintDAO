@@ -4,7 +4,8 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Auth from "./pages/Auth";
-import Test from "./pages/Test";
+import Upload from "./pages/Upload";
+import View from "./pages/View";
 
 function App() {
   const currentUser = true;
@@ -39,8 +40,25 @@ function App() {
               </ProtectedRoute>
             }
           />
+          <Route
+            exact
+            path="/upload"
+            element={
+              <ProtectedRoute>
+                <Upload />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            exact
+            path="/view"
+            element={
+              <ProtectedRoute>
+                <View />
+              </ProtectedRoute>
+            }
+          />
           <Route exact path="/auth" element={<Auth />} />
-          <Route exact path="/test" element={<Test />} />
         </Routes>
       </BrowserRouter>
     </>
