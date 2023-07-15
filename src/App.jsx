@@ -4,9 +4,10 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Auth from "./pages/Auth";
+import Test from "./pages/Test";
 
 function App() {
-  const currentUser = false;
+  const currentUser = true;
   const ProtectedRoute = ({ children }) => {
     if (!currentUser) {
       alert("Authenticate to continue");
@@ -39,6 +40,7 @@ function App() {
             }
           />
           <Route exact path="/auth" element={<Auth />} />
+          <Route exact path="/test" element={<Test />} />
         </Routes>
       </BrowserRouter>
     </>
