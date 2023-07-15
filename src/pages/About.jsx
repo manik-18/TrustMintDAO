@@ -90,8 +90,8 @@ function About() {
                   </h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                     <li class="mb-4">
-                      <a href="https://flowbite.com/" class="hover:underline">
-                        Flowbite
+                      <a href="https://react.dev/learn" class="hover:underline">
+                        React
                       </a>
                     </li>
                     <li>
@@ -110,12 +110,12 @@ function About() {
                   </h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                     <li class="mb-4">
-                      <a href="" class="hover:underline ">
+                      <a href="https://github.com/nishhdgop/TrustMintDAO" class="hover:underline ">
                         Github
                       </a>
                     </li>
                     <li>
-                      <a href="" class="hover:underline">
+                      <a href="#" class="hover:underline">
                         Discord
                       </a>
                     </li>

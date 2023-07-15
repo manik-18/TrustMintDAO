@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Auth from "./pages/Auth";
 
 function App() {
-  const currentUser = false;
+  const currentUser = true;
   const ProtectedRoute = ({ children }) => {
     if (!currentUser) {
       alert("Authenticate to continue");
