@@ -23,6 +23,7 @@ function Card() {
             Fullstack Developer
           </span>
           <div className="flex mt-4 space-x-3 md:mt-6">
+          <a href="https://www.instagram.com/sarasverma23/">
             <button
               type="button"
               className="text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2"
@@ -41,6 +42,8 @@ function Card() {
                 />
               </svg>
             </button>
+            </a>
+            <a href="https://github.com/sarasverma">
             <button
               type="button"
               className="text-white bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 mr-2 mb-2"
@@ -59,6 +62,7 @@ function Card() {
                 />
               </svg>
             </button>
+            </a>
           </div>
         </div>
       </div>
@@ -77,6 +81,7 @@ function Card() {
           Blockchain Developer
           </span>
           <div className="flex mt-4 space-x-3 md:mt-6">
+          <a href="https://twitter.com/TNischith?t=XU13zce6dnonpCAlCqDwuA&s=08">
             <button
               type="button"
               className="text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2"
@@ -95,6 +100,8 @@ function Card() {
                 />
               </svg>
             </button>
+            </a>
+            <a href="https://github.com/nishhdgop">
             <button
               type="button"
               className="text-white bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 mr-2 mb-2"
@@ -113,6 +120,7 @@ function Card() {
                 />
               </svg>
             </button>
+            </a>
           </div>
         </div>
       </div>
@@ -131,6 +139,7 @@ function Card() {
             AI & ML Developer
           </span>
           <div className="flex mt-4 space-x-3 md:mt-6">
+          <a href="https://github.com/jayavibhavnk">
             <button
               type="button"
               className="text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2"
@@ -149,6 +158,8 @@ function Card() {
                 />
               </svg>
             </button>
+            </a>
+            <a href="https://github.com/jayavibhavnk">
             <button
               type="button"
               className="text-white bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 mr-2 mb-2"
@@ -167,6 +178,7 @@ function Card() {
                 />
               </svg>
             </button>
+            </a>
           </div>
         </div>
       </div>
@@ -185,6 +197,7 @@ function Card() {
             Software Developer
           </span>
           <div className="flex mt-4 space-x-3 md:mt-6">
+          <a href="https://twitter.com/itz_me_Saksham">
             <button
               type="button"
               className="text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2"
@@ -203,6 +216,8 @@ function Card() {
                 />
               </svg>
             </button>
+            </a>
+            <a href="https://github.com/Saksham-Gupta-24">
             <button
               type="button"
               className="text-white bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 mr-2 mb-2"
@@ -221,6 +236,7 @@ function Card() {
                 />
               </svg>
             </button>
+            </a>
           </div>
         </div>
       </div>
@@ -239,6 +255,7 @@ function Card() {
             Fullstack Developer
           </span>
           <div className="flex mt-4 space-x-3 md:mt-6">
+            <a href="https://twitter.com/manik_1810">
             <button
               type="button"
               className="text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2"
@@ -257,6 +274,8 @@ function Card() {
                 />
               </svg>
             </button>
+            </a>
+            <a href="https://www.linkedin.com/in/manik1810/">
             <button
               type="button"
               className="text-white bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 mr-2 mb-2"
@@ -275,6 +294,7 @@ function Card() {
                 />
               </svg>
             </button>
+            </a>
           </div>
         </div>
       </div>
