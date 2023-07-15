@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import CryptoJS from "crypto-js";
+import { Web3Context } from "../context/Web3Context";
 
 const Storage = () => {
   const [selectedFile, setSelectedFile] = useState(null);
   const [isKeyRequired, setIsKeyRequired] = useState(false);
   const [encryptionKey, setEncryptionKey] = useState("");
+
+  const { uploadFile } = useContext(Web3Context);
 
   const handleCheckboxChange = () => {
     setIsKeyRequired(!isKeyRequired);
@@ -60,15 +63,20 @@ const Storage = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     if (isKeyRequired) {
       if (encryptionKey === "") {
         alert("Please enter a key");
       } else {
         encryptFile();
+        const cid = await uploadFile(selectedFile);
+        console.log(cid);
+
         // upload to ipfs
       }
     } else {
+      const cid = await uploadFile(selectedFile);
+      console.log(cid);
       // upload to ipfs
     }
   };
