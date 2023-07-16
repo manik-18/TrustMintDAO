@@ -1,7 +1,8 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const Auth = ({ currentUser, setCurrentUser }) => {
+const Auth = (props) => {
+  const { currentUser, setCurrentUser } = props;
   const navigate = useNavigate();
   return (
     <section className="bg-gray-50 dark:bg-gray-900 backdrop-blur-md">
@@ -38,7 +39,8 @@ const Auth = ({ currentUser, setCurrentUser }) => {
 
                     if (publicKey) {
                       // const user = await JSON.stringify(publicKey);
-                      // await setCurrentUser(publicKey);
+                      // console.log(currentUser);
+                      // setCurrentUser(publicKey);
                       localStorage.setItem("userId", publicKey);
                       // navigate("/");
                       window.location.href = "/";
