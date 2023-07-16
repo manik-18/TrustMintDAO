@@ -1,0 +1,7 @@
+type NFT = 
+ service {
+   greet: () -> (text) query;
+   inc: () -> ();
+   show: () -> (text);
+ };
+service : () -> NFT
