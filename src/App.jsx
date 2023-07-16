@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Auth from "./pages/Auth";
 import Upload from "./pages/Upload";
 import View from "./pages/View";
+import Pricing from "./components/Pricing";
 
 function App() {
   const currentUser = true;
@@ -59,6 +60,7 @@ function App() {
             }
           />
           <Route exact path="/auth" element={<Auth />} />
+          <Route exact path="/pricing" element={<Pricing/>} />
         </Routes>
       </BrowserRouter>
     </>
