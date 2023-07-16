@@ -8,13 +8,13 @@ const Pricing = () => {
           <div className="relative p-10 space-y-12 overflow-hidden lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 rounded-xl">
             <div className="relative flex flex-col p-8 bg-white">
               <div className="flex-1">
-                <h3 className="text-xl font-semibold text-neutral-600">Freelancer</h3>
+                <h3 className="text-xl font-semibold text-neutral-600">Personal</h3>
                 <p className="flex items-baseline mt-4 text-neutral-600">
                   <span className="text-5xl font-extrabold tracking-tight">$24</span>
                   <span className="ml-1 text-xl font-semibold">/month</span>
                 </p>
                 <p className="mt-6 text-gray-500">
-                  The essentials to provide your best work for clients.
+                  Best suits for your personal needs.
                 </p>
                 {/* Feature list */}
                 <ul role="list" className="pt-6 mt-6 space-y-6 border-t">
@@ -37,7 +37,7 @@ const Pricing = () => {
                         ></path>
                       </svg>
                     </div>
-                    <span className="ml-3 text-neutral-600">Up to 10 credit cards</span>
+                    <span className="ml-3 text-neutral-600">Up to 30 GB extra storage</span>
                   </li>
                   <li className="flex">
                     <div className="inline-flex items-center w-6 h-6 bg-blue-600 rounded-xl">
@@ -57,7 +57,7 @@ const Pricing = () => {
                         ></path>
                       </svg>
                     </div>
-                    <span className="ml-3 text-neutral-600">Up to 1,000 credits</span>
+                    <span className="ml-3 text-neutral-600">Less customizable</span>
                   </li>
                   <li className="flex">
                     <div className="inline-flex items-center w-6 h-6 bg-blue-600 rounded-xl">
@@ -77,7 +77,7 @@ const Pricing = () => {
                         ></path>
                       </svg>
                     </div>
-                    <span className="ml-3 text-neutral-600">Tacky wallet</span>
+                    <span className="ml-3 text-neutral-600">$10 bonus on joining</span>
                   </li>
                   <li className="flex">
                     <div className="inline-flex items-center w-6 h-6 bg-blue-600 rounded-xl">
@@ -115,7 +115,7 @@ const Pricing = () => {
               <div className="relative flex-1">
                 <h3 className="text-xl font-semibold text-white">Startup</h3>
                 <p className="flex items-baseline mt-4 text-white">
-                  <span className="text-5xl font-extrabold tracking-tight">$32</span>
+                  <span className="text-5xl font-extrabold tracking-tight">$55</span>
                   <span className="ml-1 text-xl font-semibold">/month</span>
                 </p>
                 <p className="mt-6 text-white text-solitud">
@@ -142,7 +142,7 @@ const Pricing = () => {
                         ></path>
                       </svg>
                     </div>
-                    <span className="ml-3 text-white">Up to 10 credit cards</span>
+                    <span className="ml-3 text-white">Up to 1 TB of extra storage</span>
                   </li>
                   <li className="flex">
                     <div className="inline-flex items-center w-6 h-6 bg-white rounded-xl">
@@ -162,7 +162,7 @@ const Pricing = () => {
                         ></path>
                       </svg>
                     </div>
-                    <span className="ml-3 text-white">Up to 10,000 credits</span>
+                    <span className="ml-3 text-white">More customizable</span>
                   </li>
                   <li className="flex">
                     <div className="inline-flex items-center w-6 h-6 bg-white rounded-xl">
@@ -182,7 +182,7 @@ const Pricing = () => {
                         ></path>
                       </svg>
                     </div>
-                    <span className="ml-3 text-white">Less tacky wallet</span>
+                    <span className="ml-3 text-white">$30 bonus on joining</span>
                   </li>
                   <li className="flex">
                     <div className="inline-flex items-center w-6 h-6 bg-white rounded-xl">

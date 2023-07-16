@@ -14,11 +14,7 @@ function About() {
             About Us
           </h1>
           <p className="text-center my-[80px] text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-38 dark:text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            perferendis iure tempora molestias blanditiis consectetur sapiente
-            eius. Doloremque magnam libero facere alias voluptas molestias, nam
-            nemo expedita asperiores molestiae reprehenderit ab nostrum
-            voluptate officia quod? Deleniti libero dignissimos facilis.
+          Trust Mint is a revolutionary decentralized system for secure and transparent file storage using Non-Fungible Tokens (NFTs). By leveraging blockchain technology and smart contracts, Trust Mint ensures authorized users can encrypt and decrypt files. It utilizes the InterPlanetary File System (IPFS) for decentralized storage, providing enhanced security and availability. The contract deployed in Motoko handles NFT minting and management, ensuring the integrity and authenticity of digital assets. With a user-friendly interface built with React JS and Plug Wallet-based authentication, Trust Mint enables effortless file management. It empowers users with control over their data in a decentralized manner, featuring efficient file handling, transparent file history, and a modern interface.
           </p>
           <div className="about-video">
             <Iframe

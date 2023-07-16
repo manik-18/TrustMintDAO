@@ -38,7 +38,7 @@ const Auth = ({ currentUser, setCurrentUser }) => {
 
                     if (publicKey) {
                       // const user = await JSON.stringify(publicKey);
-                      await setCurrentUser(publicKey);
+                      // await setCurrentUser(publicKey);
                       localStorage.setItem("userId", publicKey);
                       // navigate("/");
                       window.location.href = "/";
