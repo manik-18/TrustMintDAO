@@ -53,6 +53,45 @@ Trust Mint is a decentralized system for secure and transparent file storage usi
 
 ---
 
+## Project Demonstration 
+
+- ## Authentication Using Plug Wallet
+
+
+
+
+![1](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/e7887782-005b-4449-a858-c02693caf6ad)
+
+
+
+- ## Home Page
+
+![2](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/525450ee-74f1-49dd-97a4-b96908ae7b4f)
+
+
+
+
+- ## About 
+
+
+![3](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/6caf0e78-1b63-423e-849c-f2f70caf8913)
+
+![4](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/4caa26c6-f6ea-4fcd-b75c-2840992dbc42)
+
+
+- ## Upload 
+
+![5](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/6a1d61f3-de46-4874-b36f-d5a0e1f8105b)
+
+
+
+- ## View
+
+![6](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/c02bacc2-8e1c-4ef8-bfe0-d4be3f4c9f0d)
+
+
+
+
 ## Results
 
 Trust Mint revolutionizes the way files are stored securely and transparently. By leveraging the power of blockchain technology, NFTs, and IPFS, Trust Mint achieves the following results:
