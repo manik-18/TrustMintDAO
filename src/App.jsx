@@ -9,6 +9,8 @@ import View from "./pages/View";
 import Pricing from "./components/Pricing";
 import { useEffect, useState } from "react";
 import NFT from "./pages/NFT";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [currentUser, setCurrentUser] = useState(
@@ -19,7 +21,7 @@ function App() {
 
   const ProtectedRoute = ({ children }) => {
     if (!currentUser) {
-      alert("Authenticate to continue");
+      toast.error("Authenticate to continue");
       return <Navigate to="/auth" />;
     }
     return children;
@@ -88,6 +90,19 @@ function App() {
           />
         </Routes>
       </BrowserRouter>
+
+      <ToastContainer
+        position="top-center"
+        autoClose={4000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </>
   );
 }
