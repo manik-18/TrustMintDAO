@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.trustmint-demo.com">Live Demo</a> 
+  <a href="https://v6vb7-sqaaa-aaaal-actsq-cai.icp0.io/">Live Demo</a> 
  
 ---
 
