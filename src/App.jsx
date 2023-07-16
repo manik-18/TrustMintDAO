@@ -7,9 +7,16 @@ import Auth from "./pages/Auth";
 import Upload from "./pages/Upload";
 import View from "./pages/View";
 import Pricing from "./components/Pricing";
+import { useEffect, useState } from "react";
+import NFT from "./pages/NFT";
 
 function App() {
-  const currentUser = true;
+  const [currentUser, setCurrentUser] = useState(
+    localStorage.getItem("userId")
+  );
+
+  console.log(currentUser);
+
   const ProtectedRoute = ({ children }) => {
     if (!currentUser) {
       alert("Authenticate to continue");
@@ -21,7 +28,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        {currentUser && <Navbar />}
+        {currentUser && (
+          <Navbar currentUser={currentUser} setCurrentUser={setCurrentUser} />
+        )}
         <Routes>
           <Route
             exact
@@ -61,6 +70,22 @@ function App() {
           />
           <Route exact path="/auth" element={<Auth />} />
           <Route exact path="/pricing" element={<Pricing/>} />
+          <Route
+            exact
+            path="/view"
+            element={
+              <ProtectedRoute>
+                <NFT />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            exact
+            path="/auth"
+            element={
+              <Auth currentUser={currentUser} setCurrentUser={setCurrentUser} />
+            }
+          />
         </Routes>
       </BrowserRouter>
     </>
