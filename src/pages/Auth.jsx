@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-const Auth = () => {
+const Auth = ({ currentUser, setCurrentUser }) => {
+  const navigate = useNavigate();
   return (
     <section className="bg-gray-50 dark:bg-gray-900 backdrop-blur-md">
       <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
@@ -27,44 +28,31 @@ const Auth = () => {
               <button
                 type="submit"
                 className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-indigo-500 flex justify-center items-center gap-2 backdrop-blur-lg"
-              >
-                <i
-                  className="fa-brands fa-google fa-fade text-xl"
-                  style={{ color: "#e10e0e" }}
-                ></i>
-                Sign in with Google
-              </button>
+                onClick={async () => {
+                  try {
+                    const publicKey = await window.ic.plug.requestConnect();
+                    console.log(
+                      `The connected user's public key is:`,
+                      publicKey
+                    );
 
-              <button
-                type="submit"
-                className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-indigo-500 flex justify-center items-center gap-2 backdrop-blur-lg"
-              >
-                <i
-                  className="fa-brands fa-twitter text-xl"
-                  style={{ color: "#0da6d9" }}
-                ></i>
-                Sign in with Twitter
-              </button>
-
-              <button
-                type="submit"
-                className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-indigo-500 flex justify-center items-center gap-2 backdrop-blur-lg"
-              >
-                <i
-                  className="fa-brands fa-discord text-xl"
-                  style={{ color: "#0e0a8f" }}
-                ></i>
-                Sign in with Discord
-              </button>
-              <button
-                type="submit"
-                className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-indigo-500 flex justify-center items-center gap-2 backdrop-blur-lg"
+                    if (publicKey) {
+                      // const user = await JSON.stringify(publicKey);
+                      await setCurrentUser(publicKey);
+                      localStorage.setItem("userId", publicKey);
+                      // navigate("/");
+                      window.location.href = "/";
+                    }
+                  } catch (e) {
+                    alert(e);
+                  }
+                }}
               >
                 <i
                   className="fa-solid fa-envelope text-xl"
                   style={{ color: "#071e46" }}
                 ></i>
-                Sign in with Email
+                Connect your Plug wallet
               </button>
             </form>
           </div>
