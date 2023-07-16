@@ -10,10 +10,10 @@ const View = () => {
   const { retrieveFile } = useContext(Web3Context);
   const docs = [
     {
-      cid: "bafybeid4cqjcyvhehsyii5updjsamn2kithipthnmeiwgm57vwjhaops6i",
-      type: "avif",
+      cid: "bafybeidwjjoci5mjocdsfkqhkrldsf6aq4g4orpxbyla3ranz6tu4chrb4",
+      type: "png",
       encrypted: false,
-      name: "m2.avif",
+      name: "image.png",
     },
     {
       cid: "bafybeidzacynhlzyswriu4cntkkpgnlhen2o7z23bb65adpcpv6dj54oam",

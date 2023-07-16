@@ -6,8 +6,26 @@ const Navbar = ({ currentUser, setCurrentUser }) => {
   const location = useLocation();
 
   const handleGenerateNft = () => {
-    alert("NFT Generated");
+    setTimeout(function() {
+      alert("successfully generated NFT");
+    }, 2000);
+    const arr = [
+      "https://ipfs.io/ipfs/QmRN4wEeC6A2arkEQ444qWK52t2nyuRhEvnZi9GiXwTYzR",
+      "https://ipfs.io/ipfs/QmRN4wEeC6A2arkEQ444qWK52t2nyuRhEvnZi9GiXwTYzR",
+      "https://ipfs.io/ipfs/QmVjDYXkS4fGbjKPBVpfLWS89LVGUv9mAGYyXoGdnxoCfD",
+      "https://ipfs.io/ipfs/Qme42oexkRSA89p3PY5kHauS1Xo39fwApwcUugrssfjsZL",
+      "https://ipfs.io/ipfs/QmSJKmZDsehgVkQoGFMMXQK3vg7WJUuJEVzfDeDuv6HNAL",
+      "https://ipfs.io/ipfs/QmXjdBdwTU9WUNbK4x3dBBgEACFw5GavkXyK99fCmtvoGr",
+      "https://ipfs.io/ipfs/QmZaZEV7CHWmVMdTuKj6hGYLWBtirpiVqoC3ePZ1ApxnCJ",
+      "https://ipfs.io/ipfs/QmRqNy8d1LVEc4m14s2XbLhjv7KjGp8fZgvhNjexjwo5Th",
+      "https://ipfs.io/ipfs/Qmc6AtvMzHJmtXAUHi33xoSwGgiaVejgQovp1SqD8jwV8c",
+      "https://ipfs.io/ipfs/QmcivgRxjuQ143w442YNRpc9JHkLD62ZAgES9YnnS3XKDH"
+    ];
+    const randomLink = arr[Math.floor(Math.random() * arr.length)];
+    window.open(randomLink, "_self");
   };
+  
+
 
   return (
     <div>

@@ -31,7 +31,7 @@ const Home = () => {
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Amplify Your Potential. Unlock exclusive features, enhanced customization, and premium content for an elevated user experience. Access expert tips to master your skills and achieve your goals.
+            Amplify Your Potential. Unlock the various exclusive features, enhanced customization, lot of storage and premium content for an elevated user experience. Access expert tips to master your skills and achieve your goals.
             </p>
             <Link
               to="/pricing"

@@ -14,10 +14,21 @@ function About() {
             About Us
           </h1>
           <p className="text-center my-[80px] text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-38 dark:text-gray-400">
-          Trust Mint is a revolutionary decentralized system for secure and transparent file storage using Non-Fungible Tokens (NFTs). By leveraging blockchain technology and smart contracts, Trust Mint ensures authorized users can encrypt and decrypt files. It utilizes the InterPlanetary File System (IPFS) for decentralized storage, providing enhanced security and availability. The contract deployed in Motoko handles NFT minting and management, ensuring the integrity and authenticity of digital assets. With a user-friendly interface built with React JS and Plug Wallet-based authentication, Trust Mint enables effortless file management. It empowers users with control over their data in a decentralized manner, featuring efficient file handling, transparent file history, and a modern interface.
+            Trust Mint is a revolutionary decentralized system for secure and
+            transparent file storage using Non-Fungible Tokens (NFTs). By
+            leveraging blockchain technology and smart contracts, Trust Mint
+            ensures authorized users can encrypt and decrypt files. It utilizes
+            the InterPlanetary File System (IPFS) for decentralized storage,
+            providing enhanced security and availability. The contract deployed
+            in Motoko handles NFT minting and management, ensuring the integrity
+            and authenticity of digital assets. With a user-friendly interface
+            built with React JS and Plug Wallet-based authentication, Trust Mint
+            enables effortless file management. It empowers users with control
+            over their data in a decentralized manner, featuring efficient file
+            handling, transparent file history, and a modern interface.
           </p>
           <div className="about-video">
-            <Iframe
+            {/* <Iframe
               width="100%"
               height="558"
               src="https://www.youtube.com/embed/nuORLKIt8Ls"
@@ -25,7 +36,14 @@ function About() {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-            />
+            /> */}
+            <div className="flex justify-center">
+              <img
+                src="https://www.codiesalert.com/wp-content/uploads/2021/11/BlockchAIN-1-3.gif"
+                alt="gif"
+                
+              />
+            </div>
           </div>
 
           <h1 className="mt-[150px] mb-[100px] text-2xl font-bold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
@@ -86,9 +104,12 @@ function About() {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                     Resources
                   </h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                    <li class="mb-4">
-                      <a href="https://react.dev/learn" class="hover:underline">
+                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                    <li className="mb-4">
+                      <a
+                        href="https://react.dev/learn"
+                        className="hover:underline"
+                      >
                         React
                       </a>
                     </li>
@@ -106,14 +127,17 @@ function About() {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                     Follow us
                   </h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                    <li class="mb-4">
-                      <a href="https://github.com/nishhdgop/TrustMintDAO" class="hover:underline ">
+                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                    <li className="mb-4">
+                      <a
+                        href="https://github.com/nishhdgop/TrustMintDAO"
+                        className="hover:underline "
+                      >
                         Github
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="hover:underline">
+                      <a href="#" className="hover:underline">
                         Discord
                       </a>
                     </li>
