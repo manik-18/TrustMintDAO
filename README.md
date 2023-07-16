@@ -12,7 +12,9 @@
  <strong> <a href="https://v6vb7-sqaaa-aaaal-actsq-cai.icp0.io/">Live Demo</a></strong>
   
   <br/>
-        (Plug Wallet is required to Access the Website)
+        (Plug Wallet is required to Access the Website) <a href="https://plugwallet.ooo/">Download</a>
+     
+        
   
  
 ---
