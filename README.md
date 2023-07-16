@@ -55,6 +55,7 @@ Trust Mint is a decentralized system for secure and transparent file storage usi
 
 ## Project Demonstration 
 
+
 - ## Authentication Using Plug Wallet
 
 
@@ -88,6 +89,7 @@ Trust Mint is a decentralized system for secure and transparent file storage usi
 - ## View
 
 ![6](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/c02bacc2-8e1c-4ef8-bfe0-d4be3f4c9f0d)
+
 
 
 
