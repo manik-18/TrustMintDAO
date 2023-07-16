@@ -9,13 +9,19 @@
 </p>
 
 <p align="center">
-  <a href="https://v6vb7-sqaaa-aaaal-actsq-cai.icp0.io/">Live Demo</a> 
+ <strong> <a href="https://v6vb7-sqaaa-aaaal-actsq-cai.icp0.io/">Live Demo</a></strong>
+  
+  <br/>
+        (Plug Wallet is required to Access the Website)
+  
  
 ---
 
 ## Description
 
-Trust Mint is a decentralized system for secure and transparent file storage using NFTs. It leverages blockchain technology and smart contracts to encrypt and decrypt files, ensuring authorized access. Trust Mint utilizes IPFS for decentralized storage, enhancing security and availability. The contract deployed in Motoko handles NFT minting and management, ensuring the integrity and authenticity of digital assets. Built on the Internet Computer platform, Trust Mint benefits from the Internet Computer Protocol (ICP) for decentralized and secure computation. With a user-friendly interface powered by React JS and Plug Wallet-based authentication, Trust Mint enables effortless file management, empowering users with control over their data in a decentralized manner.
+Trust Mint is a decentralized system for secure and transparent file storage using NFTs. It leverages blockchain technology and smart contracts to encrypt and decrypt files, ensuring authorized access. Trust Mint utilizes IPFS for decentralized storage, enhancing security and availability. The contract deployed in Motoko handles NFT minting and management, ensuring the integrity and authenticity of digital assets. Built on the Internet Computer platform, Trust Mint benefits from the Internet Computer Protocol (ICP) for decentralized and secure computation. We have linked IPFS to ICP for affordable storage solutions and scalibility on the Blockchain.
+With a user-friendly interface powered by React JS and Plug Wallet-based authentication, Trust Mint enables effortless file management, empowering users with control over their data in a decentralized manner.
+
 
 ---
 
@@ -72,12 +78,6 @@ Trust Mint is a decentralized system for secure and transparent file storage usi
 
 
 
-- ## About 
-
-
-![3](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/6caf0e78-1b63-423e-849c-f2f70caf8913)
-
-![4](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/4caa26c6-f6ea-4fcd-b75c-2840992dbc42)
 
 
 - ## Upload 
@@ -91,7 +91,14 @@ Trust Mint is a decentralized system for secure and transparent file storage usi
 ![6](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/c02bacc2-8e1c-4ef8-bfe0-d4be3f4c9f0d)
 
 
+- ## About 
 
+
+![3](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/6caf0e78-1b63-423e-849c-f2f70caf8913)
+
+![4](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/4caa26c6-f6ea-4fcd-b75c-2840992dbc42)
+
+---
 
 
 ## Results
