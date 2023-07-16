@@ -2,8 +2,12 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Profile from "../asset/user.svg";
 
-const Navbar = () => {
+const Navbar = ({ currentUser, setCurrentUser }) => {
   const location = useLocation();
+
+  const handleGenerateNft = () => {
+    alert("NFT Generated");
+  };
 
   return (
     <div>
@@ -43,32 +47,26 @@ const Navbar = () => {
             >
               <div className="px-4 py-3">
                 <span className="block text-sm text-gray-900 dark:text-white">
-                  Bonnie Green
-                </span>
-                <span className="block text-sm  text-gray-500 truncate dark:text-gray-400">
-                  name@TrustMint.com
+                  Plug User
                 </span>
               </div>
               <ul className="py-2" aria-labelledby="user-menu-button">
                 <li>
-                  <Link
-                    to="#"
+                  <button
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    onClick={handleGenerateNft}
                   >
-                    History
-                  </Link>
+                    Generate NFT
+                  </button>
                 </li>
+
                 <li>
                   <Link
-                    to="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                  >
-                    Settings
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="#"
+                    onClick={() => {
+                      setCurrentUser(null);
+                      localStorage.removeItem("userId");
+                    }}
+                    to="/auth"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                   >
                     Sign out
