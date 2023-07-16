@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import CryptoJS from "crypto-js";
 import { Web3Context } from "../context/Web3Context";
+import { toast } from "react-toastify";
 
 const Storage = () => {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -66,7 +67,7 @@ const Storage = () => {
   const handleSubmit = async (e) => {
     if (isKeyRequired) {
       if (encryptionKey === "") {
-        alert("Please enter a key");
+        toast.error("Please enter a key");
       } else {
         await encryptFile();
         const cid = await uploadFile(selectedFile);
@@ -76,6 +77,7 @@ const Storage = () => {
       const cid = await uploadFile(selectedFile);
       console.log(cid);
     }
+    toast.success("Successfully uploaded");
   };
 
   return (

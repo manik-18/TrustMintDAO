@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
+
 
 const Auth = (props) => {
   const { currentUser, setCurrentUser } = props;
@@ -46,7 +48,7 @@ const Auth = (props) => {
                       window.location.href = "/";
                     }
                   } catch (e) {
-                    alert(e);
+                    toast.error(e);
                   }
                 }}
               >

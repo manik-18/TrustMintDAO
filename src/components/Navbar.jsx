@@ -1,13 +1,15 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Profile from "../asset/user.svg";
+import { toast } from "react-toastify";
 
 const Navbar = ({ currentUser, setCurrentUser }) => {
   const location = useLocation();
 
   const handleGenerateNft = () => {
     setTimeout(function() {
-      alert("successfully generated NFT");
+      toast.sucess("successfully generated NFT");
+      
     }, 2000);
     const arr = [
       "https://ipfs.io/ipfs/QmRN4wEeC6A2arkEQ444qWK52t2nyuRhEvnZi9GiXwTYzR",
