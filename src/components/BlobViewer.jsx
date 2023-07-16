@@ -8,7 +8,13 @@ const BlobViewer = ({ data }) => {
     setBlobURL(url);
   }, []);
 
-  return <div>{blobURL && <img src={blobURL} alt="Blob Image" />}</div>;
+  return (
+    <div className="flex justify-center">
+      {blobURL && (
+        <img src={blobURL} alt="Blob Image" className="flex justify-center" />
+      )}
+    </div>
+  );
 };
 
 export default BlobViewer;

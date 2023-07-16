@@ -34,26 +34,26 @@ const Storage = () => {
   };
 
   // main logic
-  const encryptFile = () => {
+  const encryptFile = async () => {
     if (selectedFile) {
       const reader = new FileReader();
 
       reader.onloadend = () => {
         const fileData = reader.result;
+        // console.log("before encrypt", fileData);
         const encryptedData = CryptoJS.AES.encrypt(
           fileData,
           encryptionKey
         ).toString();
 
+        // console.log("encrypted data", encryptedData);
         // Create a new File object with the encrypted data and a modified file name
         const encryptedFile = new File(
           [encryptedData],
-          `${selectedFile.name}.enc`,
-          {
-            type: selectedFile.type,
-            lastModified: selectedFile.lastModified,
-          }
+          `${selectedFile.name}.enc`
         );
+
+        // console.log("encrypted file", encryptedFile);
 
         setSelectedFile(encryptedFile);
       };
@@ -68,16 +68,13 @@ const Storage = () => {
       if (encryptionKey === "") {
         alert("Please enter a key");
       } else {
-        encryptFile();
+        await encryptFile();
         const cid = await uploadFile(selectedFile);
         console.log(cid);
-
-        // upload to ipfs
       }
     } else {
       const cid = await uploadFile(selectedFile);
       console.log(cid);
-      // upload to ipfs
     }
   };
 
