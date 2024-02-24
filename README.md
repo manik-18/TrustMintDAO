@@ -1,4 +1,4 @@
-# Trust Mint - ur Hackathon 3.0
+# Trust Mint - ur Hackathon 3.0 🚀
 
 <div align="center">
   <img src="https://flowbite.com/docs/images/logo.svg" alt="Trust Mint Logo">
@@ -19,15 +19,13 @@
  
 ---
 
-## Description
+## Description ℹ️
 
-Trust Mint is a decentralized system for secure and transparent file storage using NFTs. It leverages blockchain technology and smart contracts to encrypt and decrypt files, ensuring authorized access. Trust Mint utilizes IPFS for decentralized storage, enhancing security and availability. The contract deployed in Motoko handles NFT minting and management, ensuring the integrity and authenticity of digital assets. Built on the Internet Computer platform, Trust Mint benefits from the Internet Computer Protocol (ICP) for decentralized and secure computation. We have linked IPFS to ICP for affordable storage solutions and scalibility on the Blockchain.
-With a user-friendly interface powered by React JS and Plug Wallet-based authentication, Trust Mint enables effortless file management, empowering users with control over their data in a decentralized manner.
-
+Trust Mint is a decentralized system for secure and transparent file storage using NFTs. It leverages blockchain technology and smart contracts to encrypt and decrypt files, ensuring authorized access. Trust Mint utilizes IPFS for decentralized storage, enhancing security and availability. The contract deployed in Motoko handles NFT minting and management, ensuring the integrity and authenticity of digital assets. Built on the Internet Computer platform, Trust Mint benefits from the Internet Computer Protocol (ICP) for decentralized and secure computation. We have linked IPFS to ICP for affordable storage solutions and scalability on the Blockchain. With a user-friendly interface powered by React JS and Plug Wallet-based authentication, Trust Mint enables effortless file management, empowering users with control over their data in a decentralized manner.
 
 ---
 
-## Key Features
+## Key Features ✨
 
 - Decentralized file storage using IPFS for improved redundancy and availability.
 - Encryption and decryption of files using NFTs for enhanced security.
@@ -38,7 +36,7 @@ With a user-friendly interface powered by React JS and Plug Wallet-based authent
 
 ---
 
-## Technologies
+## Technologies 🛠️
 
 
 ![ICP](https://img.shields.io/badge/ICP-Internet%20Computer%20Protocol-orange)
@@ -61,10 +59,10 @@ With a user-friendly interface powered by React JS and Plug Wallet-based authent
 
 ---
 
-## Project Demonstration 
+## Project Demonstration 🖥️
 
 
-- ## Authentication Using Plug Wallet
+- ## Authentication Using Plug Wallet 🛡️
 
 
 
@@ -73,7 +71,7 @@ With a user-friendly interface powered by React JS and Plug Wallet-based authent
 
 
 
-- ## Home Page
+- ## Home Page 🏠
 
 ![2](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/525450ee-74f1-49dd-97a4-b96908ae7b4f)
 
@@ -82,18 +80,18 @@ With a user-friendly interface powered by React JS and Plug Wallet-based authent
 
 
 
-- ## Upload 
+- ## Upload 📤
 
 ![5](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/6a1d61f3-de46-4874-b36f-d5a0e1f8105b)
 
 
 
-- ## View
+- ## View 👀
 
 ![6](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/c02bacc2-8e1c-4ef8-bfe0-d4be3f4c9f0d)
 
 
-- ## About 
+- ## About ℹ️
 
 
 ![3](https://github.com/nishhdgop/TrustMintDAO/assets/114461220/6caf0e78-1b63-423e-849c-f2f70caf8913)
@@ -103,7 +101,7 @@ With a user-friendly interface powered by React JS and Plug Wallet-based authent
 ---
 
 
-## Results
+## Results 📊
 
 Trust Mint revolutionizes the way files are stored securely and transparently. By leveraging the power of blockchain technology, NFTs, and IPFS, Trust Mint achieves the following results:
 
@@ -113,7 +111,7 @@ Trust Mint revolutionizes the way files are stored securely and transparently. B
 
 - **Decentralized File Storage:** Trust Mint utilizes IPFS for decentralized storage, offering improved redundancy and availability. This distributed approach ensures that files remain accessible even if individual nodes go offline.
 
-- **Transparent and Auditable:** Trust Mint's blockchain-based system allows for transparent and auditable file history. Each transaction and modification made to the files is recorded on the blockchain, providing an immutable record of changes.
+- **Transparent and Auditable:** Trust Mint's blockchain-based system allows for transparent and auditable file history. Each transaction and modification made to the files are recorded on the blockchain, providing an immutable record of changes.
 
 - **User-Friendly Interface:** Trust Mint provides an intuitive and user-friendly interface built with React JS. The interface allows users to easily upload, store, and access their files, making the file management experience seamless and enjoyable.
 
@@ -121,13 +119,10 @@ With Trust Mint, users can confidently store their files knowing they are protec
 
 ---
 
-## Contributors
+## Contributors 👨‍💻
 
-- [NISHCHIT T N](https://github.com/nishhdgop)
-- [Jvnk](https://github.com/jayavibhavnk)
+- [Nischit T N](https://github.com/nishhdgop)
+- [Jayavibhav](https://github.com/jayavibhavnk)
 - [Saras Verma](https://github.com/sarasverma)
 - [Manik Gupta](https://github.com/manik-18)
 - [Saksham Gupta](https://github.com/Saksham-Gupta-24)
-
-
-
